@@ -1,7 +1,7 @@
 // https://github.com/Hasan0734/js-assignment
 
 //Kilometer To Meter
-// 1 kilometer  = 100 mter
+// 1 kilometer  = 100 meter
 
 function kilometerToMeter(kilometer) {
   var totalMeter = kilometer * 1000;
@@ -48,7 +48,7 @@ function hotelCost(days) {
   }
   return totalCost;
 }
-hotelCost(200)
+hotelCost(200);
 
 
 
@@ -56,17 +56,17 @@ hotelCost(200)
 //find big name on friend list
 
 function megaFriend(friends){
-    var bigName =''
+    var bigName ='';
     for (var i = 0; i < friends.length; i++) {
         const friendName = friends[i];
         if (bigName.length == 0) {
             bigName = friendName;
         }
         if (friendName.length > bigName.length) {
-            bigName = friendName
+            bigName = friendName;
         }
     }
-    return bigName
+    return bigName;
 }
 var friends = ['rasel', 'jahid', 'mehedi', 'kamruzzaman', 'khalilur', 'mostofa']
-megaFriend(friends)
+megaFriend(friends);
